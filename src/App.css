@@ -1,0 +1,22 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #3b82f6, #8b5cf6, #f97316);
+  color: white;
+  margin: 0;
+}
+
+#main {
+  min-height: 100vh;
+}
+
+.content {
+  width: 100%;
+}
+#root {
+  width: 100%;
+  max-width: none;
+}

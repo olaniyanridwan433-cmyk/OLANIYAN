@@ -1,0 +1,57 @@
+.about-container {
+  min-height: 100vh;
+  padding: 90px 8%;
+  color: white;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 18px;
+  color: #ddd;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+/* sections */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f97316;
+}
+
+.section p {
+  color: #ccc;
+  line-height: 1.6;
+  max-width: 700px;
+}
+
+/* skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+/* fun fact */
+.fun {
+  margin-top: 40px;
+  color: #aaa;
+  font-style: italic;
+}
