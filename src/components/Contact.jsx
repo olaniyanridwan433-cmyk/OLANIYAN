@@ -64,7 +64,7 @@ export default function Contact() {
   </a>
 
   <a
-    href="https://twitter.com/yourusername"
+    href="https://x.com/OlaniyanRid"
     target="_blank"
     rel="noreferrer"
     className="social-icon"
@@ -76,7 +76,7 @@ export default function Contact() {
   </a>
 
   <a
-    href="https://youtube.com/@yourusername"
+    href="https://www.youtube.com/channel/UCvc6xYm4Tjm1dno-KpEVWpA"
     target="_blank"
     rel="noreferrer"
     className="social-icon"
@@ -88,7 +88,7 @@ export default function Contact() {
   </a>
 
   <a
-    href="https://facebook.com/yourusername"
+    href="https://web.facebook.com/profile.php?id=61589710305205"
     target="_blank"
     rel="noreferrer"
     className="social-icon"
