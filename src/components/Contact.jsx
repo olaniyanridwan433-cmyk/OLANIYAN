@@ -50,6 +50,55 @@ export default function Contact() {
         <button type="submit">Send</button>
       </form>
 
+      <div className="social-links">
+  <a
+    href="https://instagram.com/yourusername"
+    target="_blank"
+    rel="noreferrer"
+    className="social-icon"
+  >
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+      alt="Instagram"
+    />
+  </a>
+
+  <a
+    href="https://twitter.com/yourusername"
+    target="_blank"
+    rel="noreferrer"
+    className="social-icon"
+  >
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png"
+      alt="Twitter"
+    />
+  </a>
+
+  <a
+    href="https://youtube.com/@yourusername"
+    target="_blank"
+    rel="noreferrer"
+    className="social-icon"
+  >
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+      alt="YouTube"
+    />
+  </a>
+
+  <a
+    href="https://facebook.com/yourusername"
+    target="_blank"
+    rel="noreferrer"
+    className="social-icon"
+  >
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+      alt="Facebook"
+    />
+  </a>
+</div>
       {/* MODAL */}
       {showModal && (
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
