@@ -14,8 +14,8 @@ function About() {
         <h2>My Journey</h2>
         <p>
           I started learning web development at a young age, focusing on
-          javascript and React Native. Now I build React Native projects and improve my
-          skills every day.
+          javascript and React Native. Now I build React Native projects and
+          improve my skills every day.
         </p>
       </div>
 

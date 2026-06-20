@@ -2,6 +2,7 @@ import nodeJs from "../../public/nodejs.png";
 import eccomerce from "../../public/logo.png";
 import message from "../../public/messa.png";
 import "../styles/Projects.css";
+import SYNAPZ from "../synapz.png";
 
 const projects = [
   {
@@ -28,6 +29,13 @@ const projects = [
     desc: "The backend server for the messenger application, built with Node.js and Express.",
     link: "https://github.com/olaniyanridwan433-cmyk/messanger_backend",
   },
+  {
+    img: SYNAPZ,
+    title: "Synapz.",
+    desc: "The full-stack Ai smart learning app built with react native, nodejs, express, mongodb and cloudinary. It features user authentication, messaging ai and also summarizing notes from pdf and documents.",
+    install:
+      "https://www.mediafire.com/file/pl38pl70y5zc7zn/application-546d2396-1964-460e-a004-3b611db76906.apk/file",
+  },
 ];
 
 export default function Projects() {
@@ -43,11 +51,20 @@ export default function Projects() {
             <h3>{project.title}</h3>
             <p>{project.desc}</p>
 
-            <div className="project-buttons">
-              <a href={project.link} target="_blank" rel="noreferrer">
-                GitHub
-              </a>
-            </div>
+            {project.link && (
+              <div className="project-buttons">
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+              </div>
+            )}
+            {project.install && (
+              <div className="project-buttons">
+                <a href={project.install} target="_blank" rel="noreferrer">
+                  Install
+                </a>
+              </div>
+            )}
           </div>
         ))}
       </div>
