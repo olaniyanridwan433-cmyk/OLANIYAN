@@ -20,7 +20,7 @@ const projects = [
   {
     img: message,
     title: "Messanger App",
-    desc: "A full-stack e-commerce app built with React Native, Node.js, Express, and MongoDB. It features user authentication, messaging functionality, and a modern UI.",
+    desc: "A full-stack messaging app built with React Native, Node.js, Express, and MongoDB. It features real-time chat functionality, user authentication, message management, and a modern responsive UI designed for smooth communication across devices.",
     link: "https://github.com/olaniyanridwan433-cmyk/Messanger",
   },
   {
